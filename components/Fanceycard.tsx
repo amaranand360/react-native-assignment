@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     },
     subheading: {
       fontSize: 15,
-      fontWeight: 500,
+      fontWeight: '500',
       color: '#33383F',
     },
     description: {

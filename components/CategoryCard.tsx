@@ -12,7 +12,7 @@ const CategoryCard = () => {
 
   const renderCategory = ({ name, icon, color }: { name: string, icon: string, color: string }) => (
     <TouchableOpacity key={name} style={[styles.category, { backgroundColor: color }]}>
-      <Ionicons name={icon} size={40} color="#fff" />
+      <Ionicons Icon={icon} size={40} color="#fff" />
       <Text style={styles.categoryTitle}>{name}</Text>
     </TouchableOpacity>
   );

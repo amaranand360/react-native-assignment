@@ -1,9 +1,11 @@
 import React from 'react';
-import { StyleSheet, Text, View, TextInput } from 'react-native';
+import { SafeAreaView,ScrollView,StyleSheet, Text, View, TextInput } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import TopNavBar from './components/TopNavBar';
 import ElevatedCards from './components/ElevatedCards'
 import CategoryCard from "./components/CategoryCard"
+import Fanceycard from './components/Fanceycard';
+
 export default function App() {
   return (
     <SafeAreaView>
@@ -18,7 +20,7 @@ export default function App() {
         <Ionicons name="search" size={24} color="black" style={styles.searchIcon} />
         <TextInput
           style={styles.searchInput}
-          placeholder="Search..."
+          placeholder="Search what you need.."
           placeholderTextColor="gray"
         />
       </View>
