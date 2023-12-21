@@ -6,9 +6,9 @@ const TopNavBar = () => {
   return (
     <View style={styles.container}>
       <Ionicons name="md-home" size={30} color="#000000" />
+      <Ionicons name="md-document" size={30} color="#000000" />
       <Ionicons name="md-notifications" size={30} color="#000000" />
       <Ionicons name="md-menu" size={30} color="#000000" />
-      <Ionicons name="md-document" size={30} color="#000000" />
     </View>
   );
 };

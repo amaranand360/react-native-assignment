@@ -18,7 +18,7 @@ export default function Fanceycard() {
 
 const styles = StyleSheet.create({
     card: {
-      backgroundColor: '#EAF6EF',
+      backgroundColor: '#fff',
       padding: 20,
       borderRadius: 10,
       elevation: 3,
