@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontWeight: '700',
     paddingHorizontal: 8,
-    marginBottom: 8, // Add margin bottom to create space
+    marginBottom: 8,
   },
   container: {
     flex:1,
@@ -46,19 +46,19 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderRadius: 4,
     margin: 8,
-    maxWidth: 200, // Set a maximum width for each card
+    maxWidth: 200, 
   },
   elevatedCard: {
     backgroundColor: '#fff',
-    borderWidth: 1, // Add a border for separation
-    borderRadius: 8, // Add rounded corners
-    borderColor: '#ddd', // Border color
-    overflow: 'hidden', // Hide overflow content
+    borderWidth: 1,
+    borderRadius: 8, 
+    borderColor: '#ddd',
+    overflow: 'hidden', 
   },
   imageCard: {
     width: 200,
     height: 200,
-    resizeMode: 'cover', // Ensure the image covers the entire container
+    resizeMode: 'cover', 
   },
   cardTitle: {
     color: '#000000',
@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
     marginBottom: 4,
   },
   button: {
-    backgroundColor: '#ececec', // Adjust the button background color
+    backgroundColor: '#ececec', 
     borderRadius: 25,
     paddingHorizontal: 15,
     paddingRight:10,
