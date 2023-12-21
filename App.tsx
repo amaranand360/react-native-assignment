@@ -17,8 +17,7 @@ export default function App() {
           <View style={styles.textContainer}>
 
             <Text style={styles.subheadingText}>HELLO ASHRAF 👋</Text>
-            <Text style={styles.headingText}>What you are looking</Text>
-            <Text style={styles.headingText}>for today</Text>
+            <Text style={styles.headingText}>What you are looking for today </Text>
 
             <View style={styles.searchContainer}>
               <TextInput
