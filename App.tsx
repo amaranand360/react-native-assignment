@@ -70,13 +70,13 @@ const styles = StyleSheet.create({
   searchContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#f2f2f2', // Purple background
+    backgroundColor: '#f2f2f2',
     borderRadius: 8,
     padding: 15,
     marginTop: 20,
   },
   searchIcon: {
-    backgroundColor: '#6759ff', // Purple background
+    backgroundColor: '#6759ff',
     marginRight: 8,
     borderRadius: 8,
     color:'#fff',
@@ -85,6 +85,6 @@ const styles = StyleSheet.create({
   searchInput: {
     flex: 1,
     fontSize: 20,
-    color: '#fff', // White text color
+    color: '#fff', 
   },
 });
