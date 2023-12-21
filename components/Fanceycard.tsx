@@ -8,7 +8,7 @@ export default function Fanceycard() {
           <Text style={styles.subheading}>Offer: AC Service</Text>
           <Text style={styles.description}>Get 25% off</Text>
           <TouchableOpacity style={styles.button}>
-            <Text style={styles.buttonText}>Grab Offer</Text>
+            <Text style={styles.buttonText}>Grab Offer {'>'} </Text>
           </TouchableOpacity>
         </View>
         </SafeAreaView>
